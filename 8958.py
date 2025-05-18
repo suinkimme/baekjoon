@@ -10,7 +10,7 @@ for i in range(n):
 """
 n = int(input())
 for i in range(0,n):
-    count, c=0, 1
+    count, c = 0, 1
     s = list(input())
     for j in s:
         if j == 'O':
