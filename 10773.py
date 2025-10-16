@@ -1,14 +1,13 @@
 import sys
 input = sys.stdin.readline
 
-K = int(input())
-S = []
-
-for _ in range(K):
-  a = int(input())
-  if a == 0:
-    S.pop()
+k = int(input())
+total = []
+for i in range(k):
+  n = int(input())
+  if n == 0:
+    total.pop()
   else:
-    S.append(a)
+    total.append(n)
 
-print(sum(S))
+print(sum(total))
